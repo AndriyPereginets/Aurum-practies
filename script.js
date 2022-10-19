@@ -1,3 +1,5 @@
+"use srtict";
+
 const numberOfFilms = +prompt ('Скільки фільмів ви переглянули?','');
 
 const personalMovieDB = {
@@ -18,5 +20,36 @@ const a = prompt('Один з останнії переглянутих філь
 
     console.log(personalMovieDB);
 
-    7777
-    
+   if (4 == 9) {
+    console.log('Ok!');
+   } else {
+    console.log('Error');
+   }
+
+   
+
+   /* if (num < 49) {
+    console.log('Error');
+   } else if (num > 100) {
+    console.log('Забагато');
+   } else {
+    console.log('Ok!');
+   } */
+
+   /* (num === 50) ? console.log('Ok!') : console.log('Error'); */
+
+   const num = 50;
+   switch (num) {
+    case 49:
+        console.log('Неправильно');
+        break;
+    case 100:
+        console.log('Неправильно');
+        break;
+    case 50:
+        console.log('Правильно!');
+        break;
+    default:
+        console.log('Лузер! Думай краще!');
+        break; 
+   }
